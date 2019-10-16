@@ -1,0 +1,28 @@
+Pebket reference sheet:
+Pagelists:
+  sortAllLists()
+  updatePage(page)
+  loadUpdates(callback)
+  loadNewPages(index,count,callback)
+  getCurrentPageList()
+  pagesToPebble(index,count,skipLoading)
+  clearLists()
+PageText:
+  initCurrentPage(page,pageNum)
+  sendText(index)
+  
+
+  typedef struct NotifyCallStruct{
+  //runs when the notification window appears
+  Callback onAppear;
+  //runs when the notification window times out
+  Callback onTimeout;
+  //runs when the notification window disappears
+  Callback onDisappear;
+  //runs when the notification window is closed
+  //unexpectedly, like when the back button is pressed
+  Callback onSuddenClose;
+  //runs when the notification window is closed by
+  //a call to hide_notification
+  Callback onNormalClose;
+}NotifyCallbacks;

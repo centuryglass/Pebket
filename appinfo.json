@@ -1,0 +1,63 @@
+{
+    "appKeys": {
+        "content_type": 7,
+        "favorite": 5,
+        "index": 3,
+        "item_count": 2,
+        "message_code": 0,
+        "message_text": 1,
+        "opcode": 9,
+        "page_state": 4,
+        "scroll_offset": 10,
+        "sort_order": 8,
+        "tag": 6
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "anthony0857@gmail.com",
+    "enableMultiJS": true,
+    "longName": "Pebket: an unofficial Pocket client for Pebble",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/options_icon.png",
+                "name": "OPTIONS_ICON",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/archive_icon.png",
+                "name": "ARCHIVE_ICON",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/favorite_icon.png",
+                "name": "FAVORITE_ICON",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/my_list_icon.png",
+                "name": "LIST_ICON",
+                "storageFormat": "pbi",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Pebket",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "0690f415-cb70-47fe-bf16-c566077aad20",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
